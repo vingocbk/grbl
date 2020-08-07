@@ -81,10 +81,14 @@ int main(void)
     sys_rt_exec_alarm = 0;
     sys.suspend = false;
     sys.soft_limit = false;
+    sys.soft_limit = false;
     //git commit
+    //third commit
+    //ádff
               
     // Start Grbl main loop. Processes program inputs and executes them.
     protocol_main_loop();
+    
     
   }
   return 0;   /* Never reached */
